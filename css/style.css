@@ -39,6 +39,11 @@ header > nav > ul > li:last-of-type {
     margin-right: 0;
 }
 
+header li,
+header img {
+    cursor: pointer;
+}
+
 .icon {
     width: 15px;
     height: 15px;
