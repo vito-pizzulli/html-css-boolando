@@ -66,11 +66,12 @@ footer > nav {
     padding: 2rem 0;
 }
 
-footer span {
+footer div:first-of-type span:first-of-type {
     font-size: 1.3rem;
 }
 
-footer ul {
+footer ul,
+footer .icon {
     margin-top: 0.7rem;
 }
 
