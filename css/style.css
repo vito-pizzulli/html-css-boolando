@@ -98,6 +98,10 @@ header img {
     z-index: 2;
 }
 
+.item-row:hover .favourite-item {
+    color: red;
+}
+
 .brand {
     font-size: .9rem;
 }
@@ -113,6 +117,18 @@ header img {
 
 .previous-price {
     text-decoration-line: line-through;
+}
+
+.favourite-item {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    z-index: 3;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 2.5rem;
+    text-align: center;
 }
 
 .width-75 {
